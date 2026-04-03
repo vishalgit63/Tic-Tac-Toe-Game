@@ -1,9 +1,9 @@
 # Tic-Tac-Toe-Game
-🎮 Tic Tac Toe Game (Java Swing)
+##🎮 Tic Tac Toe Game (Java Swing)
 
 A simple Tic Tac Toe game built using Java Swing GUI. This is a two-player desktop application where players can enter their names and play the classic game with an interactive interface.
 
-📌 Features
+## 📌 Features
 🧑‍🤝‍🧑 Two-player mode (Player X vs Player O)
 🎨 Simple and clean GUI using Java Swing
 🔄 Turn indicator display
@@ -12,32 +12,32 @@ A simple Tic Tac Toe game built using Java Swing GUI. This is a two-player deskt
 🔁 Game resets automatically after win/draw
 🚫 Prevents overwriting already filled cells
 🖥️ Screens
-Player Input Screen
+## Player Input Screen
 Enter Player X and Player O names
 Click Start to begin
-Game Board
+## Game Board
 3x3 grid
 Displays current player's turn
 Shows result popup on win/draw
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Java
 Swing (GUI)
 AWT (Layout Management)
-🚀 How to Run
+## 🚀 How to Run
 1. Compile the Program
-javac TicTacToeGame.java
+    javac TicTacToeGame.java
 2. Run the Program
-java TicTacToeGame
-🎯 How to Play
+      java TicTacToeGame
+## 🎯 How to Play
 Enter names for both players
 Click Start
 Players take turns:
 Player X starts first
 Click on any empty cell to place your mark
-The game ends when:
+## The game ends when:
 A player gets 3 in a row (win 🎉)
 All cells are filled (draw 😃)
-🧠 Game Logic
+## 🧠 Game Logic
 The board is a 3x3 grid of buttons
 Each move:
 Updates button text (X or O)
@@ -48,19 +48,28 @@ Rows
 Columns
 Diagonals
 If no winner and board is full → Draw
-🔁 Game Flow
+## 🔁 Game Flow
 Start Game → Enter Names → Play Turns → Check Winner/Draw → Show Result → Reset Game
 📂 Project Structure
 TicTacToeGame.java   # Main game file with GUI and logic
 ⚠️ Validation
 Ensures both player names are entered before starting
 Prevents clicking on already selected cells
-👨‍💻 Author
+## 👨‍💻 Author
 
 Vishal Yadav
 
-🌟 Future Improvements
+## 🌟 Future Improvements
 🤖 Add AI (Single Player Mode)
 🎨 Improve UI design
 🔊 Add sound effects
 📊 Score tracking system
+
+<img width="487" height="425" alt="Screenshot 2026-04-04 013509" src="https://github.com/user-attachments/assets/e735fa1f-8249-45c4-8e3c-35aebaf16108" />
+
+
+<img width="483" height="430" alt="Screenshot 2026-04-04 013436" src="https://github.com/user-attachments/assets/3cbaf0b1-ecfe-48b4-bbc1-312e9ae12c1f" />
+
+
+<img width="492" height="432" alt="Screenshot 2026-04-04 013357" src="https://github.com/user-attachments/assets/4db2532a-d00e-45b5-bbd6-d1b2a5732c5e" />
+
